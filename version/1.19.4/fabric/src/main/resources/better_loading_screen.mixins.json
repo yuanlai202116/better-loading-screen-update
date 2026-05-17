@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "me.shedaniel.betterloadingscreen.mixin.fabric",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinMinecraft",
+    "MixinWindow"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+

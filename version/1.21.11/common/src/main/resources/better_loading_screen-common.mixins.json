@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "me.shedaniel.betterloadingscreen.mixin",
+  "plugin": "me.shedaniel.betterloadingscreen.BetterLoadingScreenCommonMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinFont",
+    "MixinLoadingOverlay",
+    "MixinMinecraft",
+    "MixinOverlayHandler",
+    "MixinModelBakery",
+    "MixinTextureAtlas",
+    "MixinStitcher",
+    "MixinWindow"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
