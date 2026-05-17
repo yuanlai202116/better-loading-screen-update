@@ -1,4 +1,4 @@
-﻿# Better Loading Screen Update
+# Better Loading Screen Update
 
 A mod to improve the Minecraft loading screen, imitating the old Forge 1.12.2 style. Supports Fabric.
 
@@ -8,15 +8,15 @@ A mod to improve the Minecraft loading screen, imitating the old Forge 1.12.2 st
 - JDK 21
 
 ### Compile
-`ash
+```bash
 # Unix
 ./gradlew :fabric:build
 
 # Windows
 gradlew.bat :fabric:build
-`
+```
 
-Output: abric/build/libs/
+Output: `fabric/build/libs/`
 
 ## License
 MIT - see LICENSE file.
